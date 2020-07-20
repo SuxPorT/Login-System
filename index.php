@@ -1,5 +1,5 @@
 <?php
-    require_once("./Classes/user.php");
+    require_once("./classes/user.php");
     $user = new User();
 ?>
 
@@ -15,8 +15,8 @@
     <meta name="robots" content="index, follow">
     <meta http-equiv="content-language" content="pt-br">
     <title>Sistema de Login</title>
-    <link rel="icon" type="image/png" href="./Images/icon.png">
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="icon" type="image/png" href="./images/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div id="form-body">

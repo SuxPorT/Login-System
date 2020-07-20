@@ -1,5 +1,5 @@
 <?php
-    require_once("./Classes/user.php");
+    require_once("./classes/user.php");
     $user = new User();
 ?>
 
@@ -16,8 +16,8 @@
     <meta http-equiv="content-language" content="pt-br">
     <title>Sistema de Login - Registrar</title>
     
-    <link rel="icon" type="image/png" href="./Images/icon.png">
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="icon" type="image/png" href="./images/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
 
     <script type="text/javascript">
     function goBack() {
