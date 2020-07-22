@@ -54,7 +54,7 @@
                 Username: "root"
                 Password: ""
                 */
-                $user->conect("login_system", "localhost", "root", "");
+                $user->connect("login_system", "localhost", "root", "");
 
                 if ($user->errorMessage == "") {
 
