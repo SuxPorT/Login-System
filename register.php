@@ -51,10 +51,10 @@
                 /* Parâmetros da classe PDO
                 DB Name: "login_system"
                 Host: "localhost"
-                Username: "root"
-                Password: ""
+                Username: "user"
+                Password: "test_user"
                 */
-                $user->connect("login_system", "localhost", "root", "");
+                $user->connect("login_system", "localhost", "user", "test_user");
 
                 if ($user->errorMessage == "") {
 

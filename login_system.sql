@@ -1,6 +1,6 @@
--- Usuário padrão (root)
--- Username: root
--- Password: "" (none)
+-- Credenciais do Banco de Dados
+-- Username: user
+-- Password: "test_user"
 
 DROP SCHEMA IF EXISTS `login_system`;
 
