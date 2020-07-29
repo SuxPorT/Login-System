@@ -1,7 +1,6 @@
 -- Credenciais do Banco de Dados
 -- Username: user
 -- Password: "test_user"
-
 DROP SCHEMA IF EXISTS `login_system`;
 
 CREATE SCHEMA IF NOT EXISTS `login_system`
@@ -9,7 +8,7 @@ DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 USE `login_system`;
 
-CREATE TABLE IF NOT EXISTS `user` (
+CREATE TABLE IF NOT EXISTS `login_system`.`user` (
 	`id` int(5) NOT NULL AUTO_INCREMENT,
 	`name` varchar(30) NOT NULL,
 	`phone` varchar(13) NOT NULL,

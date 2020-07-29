@@ -39,8 +39,7 @@
                 DB Name: "login_system"
                 Host: "localhost"
                 Username: "user"
-                Password: "test_user"
-                */
+                Password: "test_user" */
                 $user->connect("login_system", "localhost", "user", "test_user");
 
                 if ($user->errorMessage == "") {
